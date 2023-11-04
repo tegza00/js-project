@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <!DOCTYPE html>
+   <html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Travel</title>
+      <link rel="stylesheet" href="css/null.css">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+
+   <body>
+      <div class="wrapper">
+         <header class="header">
+            <div class="header__container">
+               <h1 class="header__logo">Travel</h1>
+               <nav class="header__nav">
+                  <ul class="header__list">
+                     <li class="header__item"><a href="" class="headder__link">Home</a></li>
+                     <li class="header__item"><a href="" class="headder__link">About</a></li>
+                     <li class="header__item"><a href="" class="headder__link">Destination</a></li>
+                     <li class="header__item"><a href="" class="headder__link">Services</a></li>
+                     <li class="header__item"><a href="" class="headder__link">Gallery</a></li>
+                     <li class="header__item"><a href="" class="headder__link">Blogs</a></li>
+                  </ul>
+               </nav>
+               <a href="" class="header__button">Book Now</a>
+            </div>
+         </header>
+         <main class="main">
+            <section class="hero">
+               <div class="hero__container">
+                  <div>
+                     <h2 class="hero__suptitle">Start Your Adventure</h2>
+                     <h1 class="hero__title">Let’s Explore This World</h1>
+                     <h3 class="hero__subtitle">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Maiores Amet
+                        VoluptateSapiente Tenetur Labore Nostrum Laborum
+                        Reprehenderit, Quis Iure Totam?</h3>
+                     <a href="" class="hero__button intro__button">Book Now</a>
+                  </div>
+               </div>
+            </section>
+
+            <!-- <section class="dests">
+               <div class="dests__container">
+                  <div class="dests__header">
+                     <h2 class="dests__suptitle">Our Destination</h2>
+                     <h1 class="dests__title">Make Yours Destination</h1>
+                  </div>
+                  <div class="dests__main" id="list">
+   
+                  </div>
+               </div>
+            </section> -->
+
+            <section class="travels">
+               <div class="travels__container">
+                  <div class="travels__header">
+                     <h2 class="travels__suptitle">Blogs And Post</h2>
+                     <h1 class="travels__title">The Untold Story</h1>
+                  </div>
+                  <div class="travels__body" id="list">
+                     
+                  </div>
+               </div>
+            </section>
+         </main>
+         <footer class="footer">
+            <div class="footer__container">
+               <div class="footer__body">
+                  <div class="footer__travel">
+                     <h1 class="footer__title">Travel</h1>
+                     <p class="footer__text">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+                     <div class="footer__social">
+                        <img src="icons/01.svg" alt="">
+                        <img src="icons/02.svg" alt="">
+                        <img src="icons/03.svg" alt="">
+                        <img src="icons/04.svg" alt="">
+                     </div>
+                  </div>
+                  <div class="footer__quick">
+                     <h1 class="footer__title">Quick Links</h1>
+                     <ul class="footer__list">
+                        <li class="footer__item"><a href="" class="footer__link">Home</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">About</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">Destination</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">Services</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">Gallery</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">Blogs</a></li>
+                     </ul>
+                  </div>
+                  <div class="footer__adress">
+                     <h1 class="footer__title">Our Address</h1>
+                     <ul class="footer__list">
+                        <li class="footer__item"><a href="" class="footer__link"><img src="icons/05.svg" alt=""> Mumbai,
+                              India - 400104</a></li>
+                        <li class="footer__item"><a href="" class="footer__link"><img src="icons/06.svg" alt="">
+                              123-456-789</a></li>
+                        <li class="footer__item"><a href="" class="footer__link"><img src="icons/07.svg" alt="">
+                              dnyaneshwarpk20@gmail.com</a></li>
+                        <li class="footer__item"><a href="" class="footer__link"><img src="icons/08.svg" alt=""> 7:00 am
+                              -
+                              5:00 pm</a></li>
+                     </ul>
+                  </div>
+                  <div class="footer__newsletter">
+                     <h1 class="footer__title">Newsletter</h1>
+                     <p class="footer__text">Subscribe for latest updates</p>
+                     <a href="" class="footer__button" data-id="1">Enter your email</a>
+                     <a href="" class="footer__button" data-id="2">Subscribe</a>
+                  </div>
+               </div>
+               <div class="footer__footer">
+                  <h1>Created By <b>Dnyaneshwar</b> | 2023</h1>
+               </div>
+            </div>
+         </footer>
+      </div>
+      <script type="text/x-handlebars-template" id="template">
+            <!-- {{#each tours}}
+            <div class="dests__item item-dests">
+               <div class="item-dests__img">
+                  <img src="{{img}}" alt="">
+               </div>
+               <div class="item-dests__body">
+                  <h1 class="item-dests__title">{{title}}</h1>
+                  <p class="item-dests__description">{{description}}</p>
+                  <a href="" class="item-dests__link">Read More ></a>
+               </div>
+            </div>
+            {{/each}} -->
+            {{#each travels}}
+            <div class="travels__item item-travels">
+               <div class="item-travels__img">
+                  <img src="{{img}}" alt="">
+               </div>
+               <div class="item-travels__body">
+                  <h1 class="item-travels__title">{{title}}</h1>
+                  <p class="item-travels__text">
+                     {{description}}
+                  </p>
+                  <div class="item-travels__others">
+                     <div class="item-travels__time">
+                        <img src="icons/09.svg" alt="">
+                        <p>20 May, 2023</p>
+                     </div>
+                     <div class="item-travels__user">
+                        <img src="icons/10.svg" alt="">
+                        <p>User</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            {{/each}}
+         </script>
+      <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+      <script src="js/handlebars2.js"></script>
+   </body>
+
+   </html>
+</body>
+
+</html>
